@@ -1,0 +1,60 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+.text {
+  h2 {
+    font-size: 4rem;
+    margin-bottom: 2.4rem;
+    font-weight: 700;
+    // text-transform: uppercase;
+  }
+  p,
+  span {
+    font-size: 1.8rem;
+    width: 90%;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+  }
+  span {
+    margin-top: 2rem;
+  }
+}
+
+.quot {
+  display: block;
+  font-size: 8rem;
+  color: var(--main--color--blue--dark);
+  opacity: 0.8;
+  &Right {
+    text-align: right;
+    width: 80%;
+  }
+}
+.line {
+  content: "";
+  height: 0.4rem;
+  border-radius: 10rem;
+  background-color: black;
+  width: 10rem;
+  margin-top: -3rem;
+}
+.quote {
+  font-size: 3rem;
+  font-weight: 700;
+  width: 80%;
+  margin-top: 3rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-style: italic;
+}

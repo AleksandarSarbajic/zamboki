@@ -1,0 +1,12 @@
+.GallerySlider {
+  width: 85rem;
+  overflow: hidden;
+  height: 20rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999999999;
+  display: flex;
+  // justify-content: center;
+}

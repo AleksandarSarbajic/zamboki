@@ -1,0 +1,18 @@
+.img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 15px;
+  object-fit: cover;
+
+  // left: 0;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+.item {
+  position: absolute;
+  top: 0;
+  transition: all 0.3s;
+}
+.hi {
+  border: 2px solid var(--main--color--blue--dark);
+}

@@ -1,0 +1,165 @@
+.main {
+  height: 9rem;
+}
+.header {
+  max-width: 145rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 2rem 0 2rem 0;
+  // background-image: linear-gradient(
+  //   180deg,
+  //   rgba(0, 0, 0, 0.7) 10%,
+  //   transparent
+  // );
+
+  z-index: 3823882338;
+}
+.name:visited,
+.name:link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  p {
+    font-size: 2rem;
+    font-weight: 600;
+    transition: color 0.2s;
+    &:hover {
+      color: var(--main--color--blue--dark);
+    }
+  }
+}
+
+.button {
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  font-size: 1.8rem;
+  margin-left: 0.5rem;
+  transition: color 0.2s;
+  color: inherit;
+  background-color: var(--main--color--blue--dark);
+  border-radius: 1rem;
+  padding: 0.7rem 1.5rem;
+  color: #fff;
+  transition: all 0.2s;
+  &:hover {
+    background-color: var(--main--color--blue--dark--1);
+    transform: translateY(-3%);
+  }
+}
+.img {
+  height: 4.4rem;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.links {
+  display: flex;
+  gap: 3rem;
+  margin-left: auto;
+  align-items: center;
+}
+.browse:visited,
+.browse:link {
+  font-size: 1.8rem;
+  display: inline-block;
+  transition: color 0.2s;
+  color: inherit;
+  font-weight: 600;
+}
+.browse:hover,
+.browse:active {
+  // color: #ccc;
+  color: var(--main--color--blue--dark);
+}
+.bg {
+  position: fixed !important;
+  top: 0;
+  background-color: rgb(10, 10, 10);
+}
+.relative {
+  position: relative;
+}
+.icon {
+  display: none;
+  font-size: 4rem;
+}
+.highlighted {
+  color: #fff;
+}
+@media only screen and (max-width: 62.5em) {
+  .links {
+    gap: 0;
+  }
+  .icon {
+    display: inline-block;
+  }
+  .links {
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 5rem;
+    width: 30rem;
+    height: 100%;
+    padding: 3rem 0 3rem 0;
+
+    background-color: rgb(10, 10, 10);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%);
+    z-index: 90999999;
+    transition: all 0.3s;
+  }
+  .browse:visited,
+  .browse:link {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #808080;
+    padding: 0.5rem 0 1rem 2rem;
+    margin-top: 0.5rem;
+  }
+  .translate {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+  }
+  .highlighted:visited,
+  .highlighted:link {
+    color: #fff;
+  }
+}
+@media only screen and (max-width: 62.5em) {
+  .header {
+    padding: 0.8rem 1.5rem;
+  }
+  .logo {
+    gap: 1rem;
+  }
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  overflow-y: auto;
+}

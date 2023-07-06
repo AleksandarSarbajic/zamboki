@@ -1,0 +1,30 @@
+.news {
+  margin-top: 12rem;
+  // margin-bottom: 50rem;
+  h2 {
+    font-size: 3.6rem;
+  }
+  &Link {
+    &:visited,
+    &:link {
+      font-size: 2rem;
+      color: var(--main--color--blue--dark);
+      font-weight: 600;
+    }
+  }
+  &Container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+  }
+  &Icon {
+    font-size: 2rem;
+  }
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 40rem));
+  justify-content: space-between;
+  row-gap: 5rem;
+}

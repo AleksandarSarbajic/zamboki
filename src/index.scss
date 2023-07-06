@@ -1,0 +1,60 @@
+:root {
+  --font--color: #111;
+  --font--color--1: #0b212f;
+  --font--color--2: #0b212f;
+  --main--color--blue--dark: #1363df;
+  --main--color--blue--dark--1: #4282e5;
+  --main--color--blue--light: #47b5ff;
+  --main--color--3: #1363df;
+  --white--color: #fff;
+  --white--color--2: #dff6ff;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-weight: 500;
+  color: var(--font--color--1);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  box-sizing: border-box;
+}
+.react-icons {
+  vertical-align: middle;
+}
+a {
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+span {
+  display: inline-block;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  // max-width: 145rem;
+  // margin: 0 auto;
+  // padding: 0 1rem;
+}
+
+.page {
+  max-width: 145rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+button {
+  font-weight: 500;
+  display: inline-block;
+}
