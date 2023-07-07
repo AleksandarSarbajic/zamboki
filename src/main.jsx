@@ -10,6 +10,8 @@ import GalleryModal from "./routes/GalleryModal";
 import { Provider } from "react-redux";
 import store from "./redux/Store";
 import AboutUsRoot from "./routes/AboutUsRoot";
+import NewsRoot from "./routes/NewsRoot";
+import Contact from "./routes/Contact";
 
 const router = createBrowserRouter([
   {
@@ -33,8 +35,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/aboutUs",
-
         element: <AboutUsRoot />,
+      },
+      {
+        path: "/news",
+        element: <NewsRoot />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },

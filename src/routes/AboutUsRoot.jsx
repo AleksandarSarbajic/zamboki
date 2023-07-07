@@ -1,3 +1,13 @@
+import AboutUsContact from "../Componenets/aboutUS/AbouUsContact";
+import AboutUsFounder from "../Componenets/aboutUS/AboutUsFounder";
+import AboutUs from "../Componenets/aboutUS/aboutUs";
+
 export default function AboutUsRoot() {
-  return <>dsddsd</>;
+  return (
+    <>
+      <AboutUs />
+      <AboutUsFounder />
+      <AboutUsContact />
+    </>
+  );
 }

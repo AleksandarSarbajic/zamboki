@@ -22,16 +22,16 @@ export default function Nav() {
               <Link to={"/"} className={`${classes.browse} `}>
                 Certificates
               </Link>
-              <Link to={`/`} className={`${classes.browse}`}>
+              <Link to={`/contact`} className={`${classes.browse}`}>
                 Contact
               </Link>
               <Link to={"/aboutUs"} className={classes.browse}>
                 About us
               </Link>
-              <Link to={"/"} className={classes.browse}>
+              <Link to={"/news"} className={classes.browse}>
                 News
               </Link>
-              <Link to={"/"} type="button" className={classes.button}>
+              <Link to={"/contact"} type="button" className={classes.button}>
                 Donate <span> &#x279A;</span>
               </Link>
             </div>

@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30rem 12% 10rem 12%;
+  margin-top: -10rem;
+  background-color: #eee;
+  h1 {
+    font-size: 5rem;
+    width: 60%;
+    text-align: center;
+    line-height: 1.1;
+  }
+  p {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+  &Button {
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: var(--main--color--blue--dark);
+    color: var(--white--color);
+    border: none;
+    border-radius: 3rem;
+    padding: 1.3rem 4rem 1.3rem 4rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s;
+
+    overflow: hidden;
+
+    &:hover {
+      background-color: var(--main--color--blue--dark--1);
+      transform: translateY(-5%);
+    }
+    &:hover .icon {
+      right: 2.5rem;
+    }
+  }
+}
+.icon {
+  margin-top: 20rem;
+  font-size: 6rem;
+  color: var(--main--color--blue--dark);
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    transform: translateY(10%);
+  }
+}
