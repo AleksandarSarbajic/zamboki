@@ -7,7 +7,7 @@ export default function GalleryImagePreviewButton(props) {
   useEffect(() => {
     const timer = setTimeout(() => {
       setVisible(true);
-    }, 1000);
+    }, 800);
     return () => clearTimeout(timer);
   });
   return (

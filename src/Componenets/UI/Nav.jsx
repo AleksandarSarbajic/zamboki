@@ -12,7 +12,7 @@ export default function Nav() {
                 alt="Logo"
                 className={classes.img}
               />
-              <p>Zomboki</p>
+              <p>Zamboki</p>
             </Link>
 
             <div className={`${classes.links} `}>

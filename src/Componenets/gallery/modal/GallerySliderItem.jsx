@@ -24,7 +24,9 @@ export default function GallerySliderItem(props) {
       to={`/gallery/${props.id}`}
       className={classes.item}
       style={{
-        transform: `translateX(${150 * (props.index + 2 - selector)}%)`,
+        transform: `translateX(${
+          props.transform * (props.index + props.i - selector)
+        }%)`,
       }}
       onClick={onClickHandler}
     >

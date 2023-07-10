@@ -8,7 +8,15 @@
   justify-content: space-between;
   gap: 10rem;
   padding-left: 1.5rem;
-
+  @media only screen and (max-width: 39em) {
+    gap: 3rem;
+  }
+  @media only screen and (max-width: 33em) {
+    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
   img {
     width: 35rem;
     height: 25rem;
@@ -20,6 +28,10 @@
     font-weight: 700;
     line-height: 1.2;
     margin-top: 4rem;
+    @media only screen and (max-width: 33em) {
+      // width: 80%;
+      text-align: center;
+    }
   }
 }
 
@@ -39,6 +51,10 @@
     line-height: 1.5;
     margin-left: 3rem;
     opacity: 0.7;
+    @media only screen and (max-width: 33em) {
+      display: block;
+      margin-left: 1rem;
+    }
   }
   &__Link {
     &:visited,
@@ -53,6 +69,13 @@
       background-color: var(--main--color--blue--dark);
       border-radius: 30px;
       transition: all 0.3s;
+      @media only screen and (max-width: 50em) {
+        margin-top: 2rem;
+      }
+      @media only screen and (max-width: 33em) {
+        display: block;
+        margin-left: 1rem;
+      }
     }
     &:hover {
       background-color: var(--main--color--blue--dark--1);

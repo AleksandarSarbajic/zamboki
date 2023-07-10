@@ -1,21 +1,30 @@
 .container {
-  padding: 3rem 12%;
+  max-width: 145rem;
+  padding: 3rem 1rem;
   // background-color: #111;
   display: flex;
   justify-content: space-between;
-  margin: 3rem 0;
+  margin: 3rem auto;
 }
-.containerBottom {
-  border-top: 1px solid #ddddddc5;
-  padding-top: 3rem;
-}
+
 .containerBottom,
 .copy {
   max-width: 145rem;
   margin: 0 auto;
   display: flex;
+  padding: 0 1rem;
   justify-content: space-between;
   align-items: flex-end;
+}
+.containerBottom {
+  border-top: 1px solid #ddddddc5;
+  padding-top: 3rem;
+  @media only screen and (max-width: 44.625em) {
+    font-size: 50%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 .browse {
   &:link,
@@ -45,6 +54,9 @@
   font-size: 1.3rem;
   margin-bottom: 1rem;
   font-style: italic;
+  @media only screen and (max-width: 44.625em) {
+    font-size: 1.4rem;
+  }
 }
 
 .icons {
@@ -52,6 +64,9 @@
   // justify-content: space-between;
   gap: 1rem;
   align-items: flex-end;
+  @media only screen and (max-width: 44.625em) {
+    justify-content: center;
+  }
 }
 .icon {
   font-size: 2.4rem;
@@ -62,11 +77,19 @@
 .nonProfit {
   margin-top: 3rem;
   font-size: 1.2rem;
+  @media only screen and (max-width: 44.625em) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+  }
 }
 
 .links {
   display: flex;
   gap: 2rem;
+  @media only screen and (max-width: 25em) {
+    gap: 1rem;
+  }
 }
 .link {
   &:visited,
@@ -74,6 +97,9 @@
     font-size: 1.6rem;
     font-weight: 600;
     margin-top: 0.5rem;
+    @media only screen and (max-width: 22.75em) {
+      font-size: 1.4rem;
+    }
   }
   &:hover,
   &:active {
@@ -84,9 +110,15 @@
   margin: 2.5rem auto 2.5rem auto;
   padding-top: 2rem;
   border-top: 1px solid #ddddddc5;
+  @media only screen and (max-width: 44.625em) {
+    justify-content: center;
+  }
   a {
-    font-size: 1.4rem;
-    font-weight: 600;
+    &:link,
+    &:visited {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
     &:hover,
     &:active {
       color: var(--main--color--blue--dark);

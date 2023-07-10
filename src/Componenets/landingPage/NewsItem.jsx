@@ -1,9 +1,8 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import classes from "../landingPage/NewsItem.module.scss";
-import Skeleton from "react-loading-skeleton";
-export default function NewsItem({ img, title, description, link }) {
-  const falser = false;
+
+export default function NewsItem({ img, title, description, id }) {
   return (
     <div className={classes.item}>
       <img src={img} alt={title} className={classes.itemImg} />
@@ -12,7 +11,7 @@ export default function NewsItem({ img, title, description, link }) {
         <p>{description}</p>
       </div>
       <div className={classes.linkContainer}>
-        <Link to={link} className={classes.link}>
+        <Link to={`/news/${id}`} className={classes.link}>
           Read More
         </Link>
       </div>

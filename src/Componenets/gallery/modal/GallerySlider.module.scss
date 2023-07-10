@@ -11,6 +11,12 @@
   // justify-content: center;
   opacity: 0;
   visibility: hidden;
+  @media only screen and (max-width: 43.75em) {
+    width: 50rem;
+  }
+  @media only screen and (max-width: 25em) {
+    width: 45rem;
+  }
 }
 .visible {
   animation-delay: 0.8s;

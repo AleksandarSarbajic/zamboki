@@ -1,0 +1,50 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  @media only screen and (max-width: 37.5em) {
+    display: none;
+  }
+}
+.title {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  margin-left: 0.5rem;
+  @media only screen and (max-width: 37.5em) {
+    display: none;
+  }
+}
+.link {
+  &:visited,
+  &:link {
+    display: flex;
+    gap: 3rem;
+  }
+  &:hover &__heading,
+  &:hover &__date,
+  &:active {
+    color: var(--main--color--blue--dark--1);
+  }
+  &__number {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--main--color--blue--dark);
+  }
+  &__heading {
+    font-size: 1.8rem;
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+  &__type {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    border-right: 1px solid #111;
+    color: var(--main--color--blue--dark);
+    padding-right: 1rem;
+    font-weight: 600;
+  }
+  &__date {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+  }
+}

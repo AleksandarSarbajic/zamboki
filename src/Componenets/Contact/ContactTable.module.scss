@@ -4,9 +4,16 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-radius: 20px;
+  overflow-x: scroll;
+  &Box {
+    overflow-x: scroll;
+  }
   th,
   td {
     padding: 1.6rem 2.4rem;
+    @media only screen and (max-width: 50em) {
+      padding: 1rem 1.6rem;
+    }
   }
 }
 .head {
@@ -18,11 +25,17 @@
     text-align: start;
     font-size: 1.8rem;
     font-weight: 600;
+    @media only screen and (max-width: 50em) {
+      font-size: 1.6rem;
+    }
   }
 }
 .body {
   td {
     font-size: 1.8rem;
+    @media only screen and (max-width: 50em) {
+      font-size: 1.6rem;
+    }
   }
   tr {
     &:nth-child(even) {

@@ -5,6 +5,10 @@
     font-weight: 700;
     margin-bottom: 2rem;
     // margin-top: 3rem;
+    @media only screen and (max-width: 43.75em) {
+      text-align: center;
+      font-size: 3.6rem;
+    }
   }
   p {
     font-size: 1.8rem;
@@ -12,5 +16,9 @@
     margin-bottom: 3rem;
     line-height: 1.5;
     letter-spacing: 0.5px;
+    @media only screen and (max-width: 43.75em) {
+      width: 100%;
+      text-align: center;
+    }
   }
 }

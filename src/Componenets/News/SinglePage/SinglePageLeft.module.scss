@@ -1,0 +1,9 @@
+.container {
+  margin-top: 5rem;
+  p {
+    font-size: 1.6rem;
+  }
+  @media only screen and (max-width: 37.5em) {
+    margin-bottom: 5rem;
+  }
+}

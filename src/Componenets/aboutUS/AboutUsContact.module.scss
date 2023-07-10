@@ -4,6 +4,9 @@
   align-items: center;
   justify-content: center;
   margin: 5rem auto 8rem auto;
+  @media only screen and (max-width: 43.75em) {
+    text-align: center;
+  }
   h3 {
     font-size: 3rem;
     font-weight: 700;

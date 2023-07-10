@@ -6,15 +6,33 @@
   padding: 30rem 12% 10rem 12%;
   margin-top: -10rem;
   background-color: #eee;
+  @media only screen and (max-width: 29.25em) {
+    padding: 30rem 4% 10rem 4%;
+  }
   h1 {
     font-size: 5rem;
     width: 60%;
     text-align: center;
     line-height: 1.1;
+    @media only screen and (max-width: 75em) {
+      width: 70%;
+    }
+    @media only screen and (max-width: 56.25em) {
+      width: 80%;
+    }
+    @media only screen and (max-width: 39em) {
+      width: 90%;
+    }
+    @media only screen and (max-width: 33em) {
+      width: 100%;
+    }
   }
   p {
     font-size: 1.8rem;
     margin-top: 2rem;
+    @media only screen and (max-width: 39em) {
+      text-align: center;
+    }
   }
   &Button {
     margin-top: 3rem;

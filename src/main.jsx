@@ -12,6 +12,7 @@ import store from "./redux/Store";
 import AboutUsRoot from "./routes/AboutUsRoot";
 import NewsRoot from "./routes/NewsRoot";
 import Contact from "./routes/Contact";
+import SingleNewsPage from "./routes/SingleNewsPage";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
       {
         path: "/news",
         element: <NewsRoot />,
+      },
+      {
+        path: "/news/:id",
+        id: "newsItem",
+        element: <SingleNewsPage />,
       },
       {
         path: "/contact",
