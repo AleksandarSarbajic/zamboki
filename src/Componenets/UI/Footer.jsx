@@ -8,16 +8,16 @@ export default function Footer() {
         <Link to={"/gallery"} className={`${classes.browse} `}>
           Gallery
         </Link>
-        <Link to={"/"} className={`${classes.browse} `}>
+        <Link to={"/certifitaces"} className={`${classes.browse} `}>
           Certificates
         </Link>
-        <Link to={`/`} className={`${classes.browse}`}>
+        <Link to={`/contact`} className={`${classes.browse}`}>
           Contact
         </Link>
         <Link to={"/aboutUs"} className={classes.browse}>
           About us
         </Link>
-        <Link to={"/"} className={classes.browse}>
+        <Link to={"/news"} className={classes.browse}>
           News
         </Link>
       </div>

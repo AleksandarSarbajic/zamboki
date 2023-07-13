@@ -24,7 +24,14 @@
 }
 .items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 40rem));
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 35rem));
   justify-content: space-between;
   row-gap: 5rem;
+  @media only screen and (max-width: 51em) {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 40rem));
+  }
+  @media only screen and (max-width: 41em) {
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -18,6 +18,18 @@
     font-weight: 700;
     margin-bottom: 1rem;
     opacity: 0;
+    @media only screen and (max-width: 75em) {
+      width: 75%;
+    }
+    @media only screen and (max-width: 75em) {
+      width: 80%;
+    }
+    @media only screen and (max-width: 37.5em) {
+      width: 100%;
+    }
+    @media only screen and (max-width: 25em) {
+      font-size: 4.4rem;
+    }
   }
   &SubHeading {
     font-size: 2rem;
@@ -25,6 +37,15 @@
     text-align: center;
     line-height: 1.4;
     opacity: 0;
+    @media only screen and (max-width: 50em) {
+      width: 75%;
+    }
+    @media only screen and (max-width: 37.5em) {
+      width: 90%;
+    }
+    @media only screen and (max-width: 37.5em) {
+      width: 100%;
+    }
   }
 }
 

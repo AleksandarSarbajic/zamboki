@@ -13,6 +13,7 @@ import AboutUsRoot from "./routes/AboutUsRoot";
 import NewsRoot from "./routes/NewsRoot";
 import Contact from "./routes/Contact";
 import SingleNewsPage from "./routes/SingleNewsPage";
+import Certificates from "./routes/Certificates";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Root />,
       },
+      { path: "/certificates", element: <Certificates /> },
       {
         path: "/gallery",
         element: <Gallery />,

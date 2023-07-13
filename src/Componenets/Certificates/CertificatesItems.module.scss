@@ -1,0 +1,27 @@
+.section {
+  max-width: 145rem;
+  margin: 0 auto;
+  padding: 5rem 1rem;
+}
+.item {
+  border: 1px solid #111;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+}
+.name {
+  font-size: 1.6rem;
+}
+.date {
+  font-size: 1.6rem;
+  // margin-left: 1rem;
+}
+.heading {
+  font-size: 3.6rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}

@@ -2,13 +2,23 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10rem;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 75em) {
+    gap: 5rem;
+  }
+  @media only screen and (max-width: 50em) {
+    grid-template-columns: 1fr;
+  }
 }
 .text {
   h2 {
     font-size: 4rem;
     margin-bottom: 2.4rem;
     font-weight: 700;
-    // text-transform: uppercase;
+    @media only screen and (max-width: 50em) {
+      text-align: center;
+    }
   }
   p,
   span {
@@ -17,10 +27,15 @@
     font-weight: 600;
     line-height: 1.4;
     letter-spacing: 0.5px;
+    @media only screen and (max-width: 75em) {
+      width: 100%;
+    }
   }
   span {
     margin-top: 2rem;
   }
+}
+.quoteBox {
 }
 
 .quot {
@@ -31,6 +46,9 @@
   &Right {
     text-align: right;
     width: 80%;
+  }
+  @media only screen and (max-width: 50em) {
+    width: 100%;
   }
 }
 .line {
@@ -46,6 +64,9 @@
   font-weight: 700;
   width: 80%;
   margin-top: 3rem;
+  @media only screen and (max-width: 50em) {
+    width: 100%;
+  }
 }
 
 .flex {

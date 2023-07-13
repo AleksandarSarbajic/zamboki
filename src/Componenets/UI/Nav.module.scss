@@ -1,6 +1,9 @@
 .main {
   height: 9rem;
 }
+.menu {
+  display: none;
+}
 .header {
   max-width: 145rem;
 
@@ -10,13 +13,17 @@
 
   margin: 0 auto;
   padding: 2rem 1rem 2rem 1rem;
-  // background-image: linear-gradient(
-  //   180deg,
-  //   rgba(0, 0, 0, 0.7) 10%,
-  //   transparent
-  // );
 
   z-index: 3823882338;
+}
+.bg {
+  position: fixed !important;
+  top: 0;
+  // left: 10%;
+  background-color: #eee;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 2rem 12%;
 }
 .name:visited,
 .name:link {
@@ -33,7 +40,9 @@
     }
   }
 }
-
+.color {
+  // color: var(--white--color);
+}
 .button {
   font-weight: 600;
   border: none;
@@ -89,11 +98,7 @@
   // color: #ccc;
   color: var(--main--color--blue--dark);
 }
-.bg {
-  position: fixed !important;
-  top: 0;
-  background-color: rgb(10, 10, 10);
-}
+
 .relative {
   position: relative;
 }
@@ -104,7 +109,29 @@
 .highlighted {
   color: #fff;
 }
+.menu {
+  @media only screen and (max-width: 62.5em) {
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-size: 4rem;
+    z-index: 99999999999999999999999999 !important;
+  }
+}
+.translate {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
+}
 @media only screen and (max-width: 62.5em) {
+  .button {
+    margin-left: 0;
+  }
+  .translate {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+  }
   .links {
     gap: 0;
   }
@@ -114,25 +141,27 @@
   .links {
     flex-direction: column;
     position: fixed;
-    left: 0;
-    top: 5rem;
-    width: 30rem;
-    height: 100%;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
     padding: 3rem 0 3rem 0;
-
-    background-color: rgb(10, 10, 10);
-    opacity: 0;
-    visibility: hidden;
-    transform: translateX(-100%);
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(248, 248, 248, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(7px);
+    transform: translateX(100%);
     z-index: 90999999;
     transition: all 0.3s;
+    gap: 2rem;
   }
   .browse:visited,
   .browse:link {
     font-size: 2rem;
     font-weight: 500;
-    color: #808080;
-    padding: 0.5rem 0 1rem 2rem;
+    color: var(--main--color--blue--dark);
+
     margin-top: 0.5rem;
   }
   .translate {
@@ -153,13 +182,7 @@
     gap: 1rem;
   }
 }
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
-  overflow-y: auto;
+.links {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px);
 }
