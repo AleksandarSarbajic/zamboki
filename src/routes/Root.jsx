@@ -8,7 +8,7 @@ export default function Root() {
     <>
       <Hero />
       <main>
-        <News />
+        {/* <News /> */}
         <About />
       </main>
       <ScrollToTop />

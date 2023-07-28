@@ -17,9 +17,9 @@ export default function Footer() {
         <Link to={"/aboutUs"} className={classes.browse}>
           About us
         </Link>
-        <Link to={"/news"} className={classes.browse}>
+        {/* <Link to={"/news"} className={classes.browse}>
           News
-        </Link>
+        </Link> */}
       </div>
       <div className={classes.containerBottom}>
         <div>

@@ -5,10 +5,10 @@ export default function AboutUs() {
     <header className={classes.container}>
       <h1>About Us </h1>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo possimus,
-        libero perspiciatis esse vero commodi nisi dolor. Eveniet consequatur
-        placeat dicta quasi error, maiores voluptatum expedita sit, nulla
-        cupiditate sequi.
+        We are an organization devoted to discovering, finding the names of
+        Jewish victims of the Holocaust who died in camps and killing fields in
+        Serbia with reliable documentation, and creating a database as a
+        testimony of the crimes against the Jewish people in Serbia during WW2.
       </p>
     </header>
   );

@@ -2,38 +2,44 @@ import classes from "../aboutUS/AboutUsText.module.scss";
 export default function AboutUsText() {
   return (
     <section className={classes.section}>
-      <h3>Our Story</h3>
+      <h3>Our Story and Plan</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-        dignissimos sit laborum distinctio quos, debitis voluptas sapiente
-        maxime, pariatur commodi libero excepturi iusto ipsa repellendus sunt
-        sed voluptatem quasi tempore?
+        Before the beginning of the Second World War, 86,000 Jews lived and
+        found themselves in the territory of former Yugoslavia, this number
+        includes about 4,000 Jewish refugees from Central Europe. 71,000 Jews
+        died (67,000 Jews who lived in Yugoslavia and 4,000 Jewish refugees) or
+        82.56% of all Jews. Of this number, a total of 34,777 Jews (including
+        1,200 Jewish refugees from Europe) lived in occupied Serbia and found
+        themselves at the beginning of the war. 28,224, or 82.16% of the Jewish
+        population of Serbia (territory of Serbia plus Jews in territories
+        annexed by neighboring <br></br>countries: Hungary, Bulgaria, Italy)
+        perished in various camps and killing fields.
       </p>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-        explicabo ad natus excepturi eos cum illum molestiae a, similique omnis
-        labore tenetur nam nobis? Necessitatibus, provident? Id odio deserunt
-        sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Incidunt explicabo ad natus excepturi eos cum illum molestiae a,
-        similique omnis labore tenetur nam nobis? Necessitatibus, provident? Id
-        odio deserunt sapiente.
+        Many names of Jewish victims have not been revealed to the light of day,
+        nor recorded and torn from oblivion. Unfortunately, what is recorded
+        sometimes contains errors in personal data (name and surname, year of
+        birth or death, or the name of the same person appears in several
+        places, lists). Due to this, and as well as the complexity of the work,
+        our plan is to divide the research into phases.
       </p>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-        aspernatur sapiente ut fugiat quis quasi libero recusandae corrupti
-        aliquid sit harum incidunt, voluptatibus non voluptates. Asperiores est
-        libero quasi fuga.
+        <b>The first phase</b> would include Belgrade, the capital of the
+        Republic of Serbia. The reason lies in the fact that both in the pre-war
+        period and in the post-war period, the largest number of Jews lived in
+        the capital, followed by other smaller towns. The number of Jews in
+        Belgrade before the war was 12,000 - 13,000, that is, about 3,148 Jewish
+        households.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-        aspernatur sapiente ut fugiat quis quasi libero recusandae corrupti
-        aliquid sit harum incidunt, voluptatibus non voluptates. Asperiores est
-        libero quasi fuga. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Libero exercitationem amet distinctio alias voluptatum, corporis
-        atque ratione odio? Veritatis sequi aliquid minima voluptatibus eius
-        quaerat repellat perspiciatis voluptas vitae amet.
+        <b>The second phase</b> would include the research of other places in
+        Serbia where Jews lived and died.
+      </p>
+      <p>
+        <b>The third phase</b> would include other Balkan countries (Bosnia and
+        Herzegovina, Croatia, North Macedonia).
       </p>
     </section>
   );

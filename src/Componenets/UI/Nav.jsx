@@ -79,9 +79,9 @@ export default function Nav() {
               <Link to={"/aboutUs"} className={classes.browse}>
                 About us
               </Link>
-              <Link to={"/news"} className={classes.browse}>
+              {/* <Link to={"/news"} className={classes.browse}>
                 News
-              </Link>
+              </Link> */}
               <Link to={"/contact"} type="button" className={classes.button}>
                 Donate <span> &#x279A;</span>
               </Link>

@@ -44,7 +44,8 @@ export default function Hero() {
             animationClass.heading ? classes.animation : null
           }`}
         >
-          If The Holocaust Is Forgotten, Dead Will Be Killed A Second Time
+          "To Forget The Dead Would Be Akin To Killing Them A Second Time" -
+          Elie Wiesel
         </h1>
         <p
           className={`${classes.textSubHeading} ${
