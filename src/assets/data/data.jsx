@@ -1,25 +1,18 @@
 export const imagesArray = [
   {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
+    img: "../src/assets/imgs/Gallery/2012.jpeg",
+    description:
+      "Year 2012 - Josef Zamboki at a celebration at Slesinger's in the company of the famous artist Dan Reisinger",
+    id: "2012",
   },
-  {
-    img: "../src/assets/imgs/Gallery/Josef2.png",
-    description: "",
-    id: "Josef2",
-  },
+
   {
     img: "../src/assets/imgs/Gallery/1989.jpeg",
     description:
       "Year 1989 - Aleksandar Prlja, Minister of Foreign Affairs of Serbia together with J. Zamboki",
     id: "1989",
   },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
+
   {
     img: "../src/assets/imgs/Gallery/2002.jpeg",
     description:
@@ -39,10 +32,9 @@ export const imagesArray = [
     id: "2010",
   },
   {
-    img: "../src/assets/imgs/Gallery/2012.jpeg",
-    description:
-      "Year 2012 - Josef Zamboki at a celebration at Slesinger's in the company of the famous artist Dan Reisinger",
-    id: "2012",
+    img: "../src/assets/imgs/Gallery/Josef2.png",
+    description: "",
+    id: "Josef2",
   },
   {
     img: "../src/assets/imgs/Gallery/SOA.jpeg",
@@ -50,73 +42,21 @@ export const imagesArray = [
       "Josef Zamboki with his wife Ruth visiting the Yad Vashem Holocaust Museum in Jerusalem for SOA Day ",
     id: "SOA",
   },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
+
   {
     img: "../src/assets/imgs/Gallery/2000.jpeg",
     description:
       "Year 2000, Prime Minister of Israel Ehud Barak in the company of J. Zamboki",
     id: "2000",
   },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
+
   {
     img: "../src/assets/imgs/Gallery/Josef.png",
     description: "",
     id: "Josef",
   },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
-  {
-    img: "https://imageproxy.wolt.com/menu/menu-images/64229154ad35819c0a5f88b8/d9780cbc-cd3c-11ed-b868-e689808affde_pizza_pollo_feta.jpeg?w=300",
-    description: "Pizza pollo feta",
-    id: self.crypto.randomUUID().toString(),
-  },
 ];
+
 export const newsArray = [
   {
     heading: "Will the wagner insurrection affect the ukraine war?",

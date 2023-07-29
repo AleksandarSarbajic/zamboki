@@ -14,9 +14,11 @@
 }
 .img {
   filter: brightness(0.7);
+  object-fit: cover;
 }
 .img,
 .modal {
+  max-height: 60rem;
   width: 50rem;
   max-width: 70rem;
   @media only screen and (max-width: 37.5em) {

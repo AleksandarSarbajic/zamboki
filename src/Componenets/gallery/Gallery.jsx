@@ -1,10 +1,7 @@
-// import { useSelector } from "react-redux";
 import classes from "../gallery/Gallery.module.scss";
 import GalleryItem from "./GalleryItem";
 import { imagesArray } from "../../assets/data/data";
 export default function GalleryComponent() {
-  // const data = useSelector((state) => state.images.images);
-  // console.log(imagesArray);
   return (
     <section className={`${classes.gallery} page`}>
       <h3>Gallery</h3>
