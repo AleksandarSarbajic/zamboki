@@ -31,11 +31,7 @@ export const imagesArray = [
       "Year 2010, Josef Zamboki in the company of Simon Peres, President of Israel and winner of the Nobel Peace Prize",
     id: "2010",
   },
-  {
-    img: "../src/assets/imgs/Gallery/Josef2.png",
-    description: "",
-    id: "Josef2",
-  },
+
   {
     img: "../src/assets/imgs/Gallery/SOA.jpeg",
     description:
@@ -48,12 +44,6 @@ export const imagesArray = [
     description:
       "Year 2000, Prime Minister of Israel Ehud Barak in the company of J. Zamboki",
     id: "2000",
-  },
-
-  {
-    img: "../src/assets/imgs/Gallery/Josef.png",
-    description: "",
-    id: "Josef",
   },
 ];
 

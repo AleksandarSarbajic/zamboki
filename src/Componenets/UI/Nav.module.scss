@@ -40,9 +40,7 @@
     }
   }
 }
-.color {
-  // color: var(--white--color);
-}
+
 .button {
   font-weight: 600;
   border: none;
@@ -126,6 +124,8 @@
 @media only screen and (max-width: 62.5em) {
   .button {
     margin-left: 0;
+    font-size: 2.4rem;
+    padding: 0.8rem 3rem;
   }
   .translate {
     opacity: 1;
@@ -158,7 +158,7 @@
   }
   .browse:visited,
   .browse:link {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     color: var(--main--color--blue--dark);
 

@@ -37,15 +37,15 @@ export default function Hero() {
   });
 
   return (
-    <header className={`${classes.hero} page`}>
+    <header className={`${classes.hero}`}>
       <div className={classes.text}>
         <h1
           className={`${classes.textHeading} ${
             animationClass.heading ? classes.animation : null
           }`}
         >
-          "To Forget The Dead Would Be Akin To Killing Them A Second Time" -
-          Elie Wiesel
+          &quot;To Forget The Dead Would Be Akin To Killing Them A Second Time
+          &quot; - Elie Wiesel
         </h1>
         <p
           className={`${classes.textSubHeading} ${
