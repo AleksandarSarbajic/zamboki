@@ -10,9 +10,9 @@ import GalleryModal from "./routes/GalleryModal";
 import { Provider } from "react-redux";
 import store from "./redux/Store";
 import AboutUsRoot from "./routes/AboutUsRoot";
-// import NewsRoot from "./routes/NewsRoot";
+
 import Contact from "./routes/Contact";
-// import SingleNewsPage from "./routes/SingleNewsPage";
+
 import Certificates from "./routes/Certificates";
 
 const router = createBrowserRouter([

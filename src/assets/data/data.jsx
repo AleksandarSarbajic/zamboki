@@ -88,3 +88,66 @@ export const newsArray = [
     written: "Josef Zamboki",
   },
 ];
+
+export const pdfArray = [
+  {
+    src: "../src/assets/data/Certificates/Ambasador_mejl.pdf",
+    id: "pdfeb3hb4el99",
+    name: "Ambasador mejl.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Berufliche_Fortbildung.pdf",
+    id: "pdf0r9py7v7x0",
+    name: "Berufliche Fortbildung.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Bestatigung.pdf",
+    id: "pdfi983geu9qu",
+    name: "Bestatigung.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Dokument1.pdf",
+    id: "pdfrz2crsy52m",
+    name: "Dokument1.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Dokument2.pdf",
+    id: "pdfxao1xqciih",
+    name: "Dokument2.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Dokument3.pdf",
+    id: "pdfla5av44fij",
+    name: "Dokument3.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Dres.pdf",
+    id: "pdfev60pdetcg",
+    name: "Dres.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Fondacija.pdf",
+    id: "pdfpwbkb2l0zj",
+    name: "Fondacija.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Josef_moj_prijatelj.pdf",
+    id: "pdf6i8btbjfsp",
+    name: "Josef moj prijatelj.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Povelja_doprinos.pdf",
+    id: "pdf5k1wt1dn2u",
+    name: "Povelja doprinos.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Teilnahme.pdf",
+    id: "pdf0hdxzlz381",
+    name: "Teilnahme.pdf",
+  },
+  {
+    src: "../src/assets/data/Certificates/Yad_Vashem.pdf",
+    id: "pdfntutwchm7g",
+    name: "Yad Vashem.pdf",
+  },
+];

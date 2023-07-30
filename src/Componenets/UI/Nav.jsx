@@ -7,8 +7,13 @@ export default function Nav() {
   const [navClass, setNavClass] = useState("");
   const [showSideBar, setShowSideBar] = useState("");
   const [scrollY, setScrollY] = useState(0);
-  const [showModal, setShowModal] = useState(false);
-  console.log(pathname);
+  const linkStyle =
+    pathname === "/" &&
+    showSideBar !== classes.translate &&
+    navClass !== classes.bg
+      ? "#fff"
+      : "";
+
   const onScroll = useCallback(() => {
     const { pageYOffset } = window;
 
@@ -63,26 +68,47 @@ export default function Nav() {
                 alt="Logo"
                 className={classes.img}
               />
-              <p>Zamboki</p>
+              <p style={{ color: linkStyle }}>Zamboki</p>
             </Link>
 
             <div className={`${classes.links} ${showSideBar}`}>
-              <Link to={"/gallery"} className={`${classes.browse} `}>
+              <Link
+                to={"/gallery"}
+                className={`${classes.browse} `}
+                style={{ color: linkStyle }}
+              >
                 Gallery
               </Link>
-              <Link to={"/certificates"} className={`${classes.browse} `}>
+              <Link
+                to={"/certificates"}
+                className={`${classes.browse} `}
+                style={{ color: linkStyle }}
+              >
                 Certificates
               </Link>
-              <Link to={`/contact`} className={`${classes.browse}`}>
+              <Link
+                to={`/contact`}
+                className={`${classes.browse}`}
+                style={{ color: linkStyle }}
+              >
                 Contact
               </Link>
-              <Link to={"/aboutUs"} className={classes.browse}>
+              <Link
+                to={"/aboutUs"}
+                className={classes.browse}
+                style={{ color: linkStyle }}
+              >
                 About us
               </Link>
-              {/* <Link to={"/news"} className={classes.browse}>
+              {/* <Link to={"/news"} className={classes.browse} style={{ color: linkStyle }}>
                 News
               </Link> */}
-              <Link to={"/contact"} type="button" className={classes.button}>
+              <Link
+                to={"/contact"}
+                type="button"
+                className={classes.button}
+                style={{ color: linkStyle }}
+              >
                 Donate <span> &#x279A;</span>
               </Link>
             </div>
@@ -93,7 +119,7 @@ export default function Nav() {
             }`}
             onClick={showHiddenSideBar}
           >
-            <RxHamburgerMenu />
+            <RxHamburgerMenu style={{ color: linkStyle }} />
           </button>
         </nav>
       </div>

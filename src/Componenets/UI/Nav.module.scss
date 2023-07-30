@@ -23,7 +23,7 @@
   background-color: #eee;
   max-width: 100% !important;
   width: 100% !important;
-  padding: 2rem 12%;
+  padding: 2rem 10%;
 }
 .name:visited,
 .name:link {
@@ -182,7 +182,8 @@
     gap: 1rem;
   }
 }
-.links {
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(7px);
-}
+
+// .links {
+//   -webkit-backdrop-filter: blur(5px);
+//   backdrop-filter: blur(7px);
+// }

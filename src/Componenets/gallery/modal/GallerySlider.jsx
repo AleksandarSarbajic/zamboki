@@ -14,7 +14,6 @@ export default function GallerySlider() {
 
     window.addEventListener("resize", handleResize);
 
-    // Clean up the event listener
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -26,7 +25,7 @@ export default function GallerySlider() {
     }, 1000);
     return () => clearTimeout(timer);
   });
-  console.log(screenWidth);
+
   return (
     <div
       className={`${classes.GallerySlider} ${visible ? classes.visible : ""}`}

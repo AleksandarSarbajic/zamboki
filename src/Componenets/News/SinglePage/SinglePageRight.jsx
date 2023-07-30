@@ -4,8 +4,8 @@ import { newsArray } from "../../../assets/data/data";
 import SinglePageRightItem from "./SinglePageRightItem";
 
 export default function SinglePageRight({ item }) {
-  const filteredNews = newsArray.filter((news) => news.id !== item.id);
-  console.log(filteredNews);
+  // const filteredNews = newsArray.filter((news) => news.id !== item.id);
+
   return (
     <aside>
       <h2 className={classes.title}>Similiar Posts</h2>

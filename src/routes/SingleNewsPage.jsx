@@ -8,9 +8,9 @@ import SinglePageItems from "../Componenets/News/SinglePage/SinglePageItems";
 import ScrollToTop from "../assets/customHooks/useScrollToTop";
 export default function SingleNewsPage() {
   const { id } = useParams();
-  console.log(id);
+
   const item = [...newsArray].find((item) => item.id === id);
-  console.log(item);
+
   return (
     <>
       <SingleHeader item={item} />

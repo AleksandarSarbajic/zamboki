@@ -10,7 +10,7 @@ export default function AboutUsFounder() {
         <div className={classses["imgBox--1"]}>
           <img
             className={classses.img}
-            src={"src/assets/imgs/Josef.png"}
+            src={"src/assets/imgs/Josef3.png"}
             alt="AboutUs"
           />
         </div>

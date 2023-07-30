@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import classes from "../gallery/GalleryItem.module.scss";
 import { useDispatch } from "react-redux";
@@ -7,7 +6,6 @@ export default function GalleryItem(props) {
   const dispatch = useDispatch();
 
   function setItem() {
-    console.log(props.val);
     dispatch(
       imagesActions.setItem({
         img: props.img,
