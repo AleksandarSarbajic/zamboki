@@ -24,13 +24,11 @@ export default function Nav() {
     } else if (pageYOffset <= 150) {
       setNavClass(classes.relative);
     }
-  }, [showSideBar]);
+  }, []);
 
-  useEffect(() => {
-    if (showSideBar === classes.translate) {
-      setShowSideBar("");
-    }
-  }, [pathname]);
+  // useEffect(() => {
+  //   setShowSideBar("");
+  // }, [pathname]);
 
   function showHiddenSideBar() {
     if (showSideBar === classes.translate) {

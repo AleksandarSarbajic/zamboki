@@ -4,10 +4,19 @@
   padding: 15rem 12%;
   background-color: #eeeeee3f;
 
-  height: 40vh;
+  height: 40dvh;
   margin-top: -10rem;
   @media only screen and (max-width: 62.5em) {
     padding: 15rem 5%;
+  }
+  @media only screen and (max-width: 39em) {
+    padding: 15rem 1rem;
+    height: 45dvh;
+  }
+  @media only screen and (max-width: 32em) {
+    padding: 15rem 1rem;
+
+    height: 50dvh;
   }
   h1 {
     margin-top: 4rem;

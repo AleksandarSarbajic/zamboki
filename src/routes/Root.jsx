@@ -1,3 +1,4 @@
+import VideoPlayer from "../Componenets/UI/VideoPlayer";
 import About from "../Componenets/landingPage/AboutContainer";
 import Hero from "../Componenets/landingPage/Hero";
 import News from "../Componenets/landingPage/News";
@@ -10,6 +11,7 @@ export default function Root() {
       <main>
         {/* <News /> */}
         <About />
+        <VideoPlayer />
       </main>
       <ScrollToTop />
     </>
