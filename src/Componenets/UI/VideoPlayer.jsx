@@ -1,29 +1,19 @@
-import "vidstack/styles/defaults.css";
-import "vidstack/styles/community-skin/video.css";
+import classes from "./VideoPlayer.module.scss";
 
-import {
-  MediaCommunitySkin,
-  MediaOutlet,
-  MediaPlayer,
-  MediaPoster,
-} from "@vidstack/react";
-
-function VideoPlayer() {
+function VideoPlayer({ text, heading, src }) {
   return (
-    <>
-      <p>dsds</p>
-      <MediaPlayer
-        title="Zamboki"
-        src="src/assets/imgs/Jambuki.mp4"
-        aspectRatio={16 / 9}
-        load="idle"
-      >
-        <MediaOutlet>
-          <MediaPoster alt="Girl walks into sprite gnomes around her friend on a campfire in danger!" />
-        </MediaOutlet>
-        <MediaCommunitySkin />
-      </MediaPlayer>
-    </>
+    <div className={classes.container}>
+      <h3 className={classes.heading}>{heading}</h3>
+
+      <iframe
+        className={classes.frame}
+        src={src}
+        title={heading}
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen="true"
+      ></iframe>
+      {text && <p className={classes.text}>{text}</p>}
+    </div>
   );
 }
 

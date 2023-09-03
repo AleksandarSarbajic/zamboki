@@ -45,6 +45,25 @@ export const imagesArray = [
       "Year 2000, Prime Minister of Israel Ehud Barak in the company of J. Zamboki",
     id: "2000",
   },
+  //
+  {
+    img: "../src/assets/imgs/Gallery/0.jpg",
+    description:
+      "Year 2000, Prime Minister of Israel Ehud Barak in the company of J. Zamboki",
+    id: "20001236",
+  },
+  {
+    img: "../src/assets/imgs/Gallery/1.jpg",
+    description:
+      "Year 2000, Prime Minister of Israel Ehud Barak in the company of J. Zamboki",
+    id: "20003232",
+  },
+  {
+    img: "../src/assets/imgs/Gallery/2.jpg",
+    description:
+      "Year 2000, Prime Minister of Israel Ehud Barak in the company of J. Zamboki",
+    id: "200032737",
+  },
 ];
 
 export const newsArray = [

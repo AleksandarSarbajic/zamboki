@@ -1,0 +1,34 @@
+.container {
+  max-width: 135rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 12rem;
+  padding: 0 1rem;
+}
+.frame {
+  aspect-ratio: 16 / 9;
+  width: 70%;
+  border-radius: 10px;
+  // border: none;
+  @media only screen and (max-width: 75em) {
+    width: 75%;
+  }
+  @media only screen and (max-width: 50em) {
+    width: 100%;
+  }
+}
+.heading {
+  font-size: 4.4rem;
+  margin: 6rem 0 3.6rem 0;
+  text-align: center;
+}
+
+.text {
+  font-size: 2.2rem;
+  margin-top: 3.4rem;
+  font-weight: 600;
+  text-align: center;
+}

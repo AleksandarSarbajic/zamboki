@@ -5,6 +5,7 @@ export default function AboutUsFounder() {
   return (
     <div className={`${classses.container} `}>
       <AboutUsText />
+
       <h3 className={classses.heading}>Our Founder</h3>
       <AboutUsFounderItem>
         <div className={classses["imgBox--1"]}>

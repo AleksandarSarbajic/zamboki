@@ -9,7 +9,10 @@ export default function AboutUsRoot() {
     <>
       <ScrollToTop />
       <AboutUs />
-      <VideoPlayer />
+      <VideoPlayer
+        heading="Dixi ne zna da igra drustvene igre bez youtuba"
+        src="https://www.youtube.com/embed/MWq1gTJohpM?si=S2bQX64sc-ODw9_e"
+      />
       <AboutUsFounder />
       <AboutUsContact />
     </>
